@@ -1,0 +1,14 @@
+ {{%  extends "base.html" %}} {{% block head %}} {{ super() }}
+ <link rel="stylesheet" href=" {{ url_for('static', filename='images/') }}">
+ {{ endblock }} {{% block content %}} 
+
+ <h1>Hello!</h1>
+<center>
+    <img src="{{ url_for('static', filename='images/')"
+         alt="pushup guy"
+         height="200px">
+</center>
+<p>
+    Welcome to your push-uplogger
+</p>
+ {{% endblock %}}
