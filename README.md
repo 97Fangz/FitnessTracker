@@ -23,8 +23,8 @@ This is a CRUD (Create, Read, Update, Delete) web application built using Flask 
 1. Clone this repository.
 
    ```bash
-   git clone https://github.com/yourusername/pushup-tracker.git
-   ```
+https://github.com/97Fangz/FitnessTracker.git
+  ```
 
 2. Create a virtual environment.
 
